@@ -146,6 +146,42 @@ header .top ul li a {
     padding: 0 1.5rem;
     color: #ffffff;
 }
+
+header .main {
+    padding: 0;
+}
+
+header .main .brand {
+    float: left;
+    padding: 1rem 1.5rem 0;
+}
+
+header .main ul {
+    text-align: right;
+}
+
+header .main ul li {
+    display: inline-block;
+    border-left: 1px solid #f0ede9;
+}
+
+header .main ul li a {
+    display: inline-block;
+    padding: 0 2.5rem;
+    line-height: 5.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #7c7a65;
+    text-decoration: none;
+}
+
+header .main ul li a:hover,
+header .main ul li a:active,
+header .main ul li a.active {
+    color: #ffb300;
+    background-color: #f8f6f1;
+}
+
 /* 网站主要内容 */
 
 .container {
