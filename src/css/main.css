@@ -198,6 +198,50 @@ header .top ul li a {
     color: #ffffff;
 }
 
+/* 滚动广告 */
+.ad {
+    /* display: none; */
+}
+
+/* 平台特点 */
+.feature {
+    width: 90%;
+    margin: 2rem auto;
+    font-size: 0;
+}
+
+.feature .item {
+    display: inline-block;
+    width: calc(33.33333% - 3rem);
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.4rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.feature .item + .item {
+    margin-left: 1.5rem;
+}
+
+.feature .item h3 {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-size: 3.3rem;
+    text-align: center;
+    color: #ff9900;
+}
+
+.feature .item p {
+    display: inline-block;
+    width: 55%;
+    margin: 0;
+    padding: 0;
+    color: #999999;
+}
+
 /* 底部 */
 footer {
     width: 100%;
