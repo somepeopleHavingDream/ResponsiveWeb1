@@ -147,6 +147,24 @@ header .top ul li a {
     color: #ffffff;
 }
 
+@media only screen and (max-width: 800px) {
+    header .top {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+    header .top ul li a {
+        color: red;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header .top ul li a {
+        color: blue;
+    }
+}
+
 header .main {
     padding: 0;
 }
